@@ -51,3 +51,6 @@ footer {
     display: inline-block;
 
 }
+.ClaseServicios{
+    overflow: auto;
+}
