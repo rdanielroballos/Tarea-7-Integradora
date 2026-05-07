@@ -19,9 +19,12 @@ body {
 
 h1,
 h2,
-h3,p,li, ul {
+h3,
+p,
+li,
+ul {
     font-family: "Sekuya", system-ui;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .ClaseFooter {
@@ -33,7 +36,8 @@ h3,p,li, ul {
     background-color: burlywood;
     color: cadetblue;
 }
-.ClaseQuienesSomos{
+
+.ClaseQuienesSomos {
     background-color: blue;
     color: red;
 }
