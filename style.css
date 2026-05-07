@@ -19,8 +19,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,p {
     font-family: "Sekuya", system-ui;
+    margin-bottom: 15px;
 }
 
 .ClaseFooter {
