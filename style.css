@@ -1,10 +1,12 @@
 * {
-    margin: 30px;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    margin: 50px;
+    padding: 50px;
     background-color: #619059;
     color: #222222;
 }
