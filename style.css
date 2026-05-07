@@ -15,11 +15,18 @@ body {
     font-style: normal;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Sekuya", system-ui;
 }
 
 .ClaseFooter {
     background-color: aqua;
     color: #619059;
+}
+
+.ClaseSeccion-contacto {
+    background-color: burlywood;
+    color: cadetblue;
 }
