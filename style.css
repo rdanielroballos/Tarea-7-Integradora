@@ -19,7 +19,7 @@ body {
 
 h1,
 h2,
-h3,p {
+h3,p,li, ul {
     font-family: "Sekuya", system-ui;
     margin-bottom: 30px;
 }
