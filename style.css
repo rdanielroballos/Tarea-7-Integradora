@@ -41,3 +41,13 @@ ul {
     background-color: blue;
     color: red;
 }
+
+h2,
+h3,
+p,
+li,
+ul,
+footer {
+    display: inline-block;
+
+}
