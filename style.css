@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+root {
+ variable-root: valor;
+}
+    
 body {
     margin: 50px;
     padding: 50px;
