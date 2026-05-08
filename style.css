@@ -3,19 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-root {
- variable-root: valor;
+:root {
+    --color-fondo: #619059;
+    --color-texto: #222222;
+    --color-footer-fondo: aqua;
+    --color-footer-texto: #619059;
+    --color-contacto-fondo: burlywood;
+    --color-quienes-fondo: blue;
+    --color-quienes-texto: red;
+    --fuente-principal: "Sekuya", system-ui;
 }
     
 body {
     margin: 50px;
     padding: 50px;
-    background-color: #619059;
-    color: #222222;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
 }
 
 .sekuya-regular {
-    font-family: "Sekuya", system-ui;
+    font-family: var(--fuente-principal);
     font-weight: 400;
     font-style: normal;
 }
@@ -26,23 +33,23 @@ h3,
 p,
 li,
 ul {
-    font-family: "Sekuya", system-ui;
+    font-family: var(--fuente-principal);
     margin-bottom: 60px;
 }
 
 .ClaseFooter {
-    background-color: aqua;
-    color: #619059;
+    background-color: var(--color-footer-fondo);
+    color: var(--color-footer-texto);
 }
 
 .ClaseSeccion-contacto {
-    background-color: burlywood;
+    background-color: var(--color-contacto-fondo);
     color: cadetblue;
 }
 
 .ClaseQuienesSomos {
-    background-color: blue;
-    color: red;
+    background-color: var(--color-quienes-fondo);
+    color: var(--color-quienes-texto);
 }
 
 h2,
