@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --color-fondo: #619059;
     --color-texto: #222222;
@@ -13,7 +14,7 @@
     --color-quienes-texto: red;
     --fuente-principal: "Sekuya", system-ui;
 }
-    
+
 body {
     margin: 50px;
     padding: 50px;
@@ -59,8 +60,55 @@ li,
 ul,
 footer {
     display: inline-block;
-
 }
-.ClaseServicios{
+
+.ClaseServicios {
     overflow: auto;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input:not([type="radio"]),
+textarea,
+select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1A1A2E;
+}
+
+fieldset {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px 14px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: var(--color-quienes-fondo);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.85;
 }
